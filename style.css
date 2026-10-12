@@ -93,6 +93,10 @@ button:active {
     border-color: #475569;
 }
 
+.botao-mais {
+    grid-row: span 2;
+}
+
 /* Botões numéricos (classe .botao) */
 .botao {
     background: #0f172a;
@@ -101,7 +105,6 @@ button:active {
 
 /* Botão de igual */
 .botao[value="="] {
-    grid-column: 3 / span 2;
     background: #3b82f6;
     color: white;
     border: none;

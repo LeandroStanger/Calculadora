@@ -101,6 +101,7 @@ button:active {
 
 /* Botão de igual */
 .botao[value="="] {
+    grid-column: 3 / span 2;
     background: #3b82f6;
     color: white;
     border: none;
